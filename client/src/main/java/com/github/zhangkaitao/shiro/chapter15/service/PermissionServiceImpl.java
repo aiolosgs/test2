@@ -23,4 +23,8 @@ public class PermissionServiceImpl implements PermissionService {
     public void deletePermission(Long permissionId) {
         permissionDao.deletePermission(permissionId);
     }
+
+    private void doNothing(){
+        system.out.pringtln("hello the world !");
+    }
 }
